@@ -1,0 +1,1 @@
+cmd_/home/blitz/lkm/char_dev/char_dev.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/blitz/lkm/char_dev/char_dev.ko /home/blitz/lkm/char_dev/char_dev.o /home/blitz/lkm/char_dev/char_dev.mod.o ;  true
